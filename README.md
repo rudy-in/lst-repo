@@ -15,9 +15,9 @@
 - [Go](https://golang.org/doc/install) 1.18 or higher.
 - A GitHub personal access token with appropriate permissions.
 
-## Setup
+# Setup
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
 Clone this repository to your local machine:
 
@@ -26,7 +26,7 @@ git clone https://github.com/yourusername/lst-repo.git
 cd lst-repo
 ```
 
-### 2. Setup ENV variable 
+# 2. Setup ENV variable 
 
 This tool is available for both **Unix** and **DOS** environments
 
@@ -41,16 +41,16 @@ chmod +x ./run
 ```
 
 
-## Command Prompt and Powershell (For DOS)
+# Command Prompt and Powershell (For DOS)
 
-# CMD PROMPT
+## CMD PROMPT
 ```bash
 set GITHUB_TOKEN=your_generated_token_here
 cd src
 go run *.go
 ```
 
-# POWERSHELL
+## POWERSHELL
 ```bash
 $env:GITHUB_TOKEN="your_generated_token_here"
 cd src
