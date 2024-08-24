@@ -60,7 +60,7 @@ go run *.go
 
 ### [IMPORTANT] Change the value of the following variable before running 
 
-**In main.go line 21 `username := "your_username"` change `your_username` to your own github username example ``username := "rudy-in"`
+**In main.go line 21 `username := "your_username"` change `your_username` to your own github username example `username := "rudy-in"`
 
 ### Contact
 
@@ -68,8 +68,8 @@ If any problem occurs please contact the developer at atsharma623@gmail.com
 
 ### Acknowledgments
 
-    Special thanks to the GitHub community for their robust API documentation and support.
-    Thanks to the Go community for their excellent development tools and libraries.
+Special thanks to the GitHub community for their robust API documentation and support.
+Thanks to the Go community for their excellent development tools and libraries.
 
 
 **Happy hacking!**
