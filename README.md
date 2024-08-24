@@ -68,8 +68,9 @@ If any problem occurs please contact the developer at atsharma623@gmail.com
 
 ### Acknowledgments
 
-Special thanks to the GitHub community for their robust API documentation and support.
-Thanks to the Go community for their excellent development tools and libraries.
+- Special thanks to the GitHub community for their robust API documentation and support.
+
+- Thanks to the Go community for their excellent development tools and libraries.
 
 
 **Happy hacking!**
