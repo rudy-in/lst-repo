@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Script to run Go code in the src directory
+
+# Define the project and source directories
+PROJECT_DIR="$(pwd)"
+SRC_DIR="$PROJECT_DIR/src"
+
+# Set the environment variable for GitHub token if needed
+# Replace 'your_generated_token_here' with your actual token if not using environment variables directly
+# Uncomment the next line to set it in the script
+# export GITHUB_TOKEN="your_generated_token_here"
+
+# Navigate to the source directory
+cd "$SRC_DIR" || { echo "Failed to change directory to $SRC_DIR"; exit 1; }
+
+# Run the Go application
+go run *.go
+
+# Return to the original directory
+cd "$PROJECT_DIR"
